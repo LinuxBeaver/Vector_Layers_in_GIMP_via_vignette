@@ -23,7 +23,7 @@
 #ifdef GEGL_PROPERTIES
 
 /*
-June 25 2023 - Recreation of SSG's GEGL Graph. If you feed this info to Gimp's
+June 25 2023 - Recreation of SSGꞌs GEGL Graph. If you feed this info to Gimpꞌs
 GEGL Graph it will allow to to text the plugin without installing it.
 
 id=1
@@ -108,7 +108,7 @@ property_double (blur2, _("Blur Image file Overlay"), 0.0)
   ui_gamma (1.5)
 
 property_double (hue, _("Hue Rotation for Image file overlay"),  0.0)
-   description  (_("Color rotation that adjust the image file'"))
+   description  (_("Color rotation that adjust the image fileꞌ"))
    value_range  (-180.0, 180.0)
 
 property_double (opacityssg, _("Opacity"), 2)

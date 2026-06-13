@@ -14,7 +14,7 @@
  * License along with GEGL; if not, see <https://www.gnu.org/licenses/>.
  *
  * Credit to Øyvind Kolås (pippin) for major GEGL contributions
- * Beaver's Invert Transparency filter.  2022 
+ * Beaverꞌs Invert Transparency filter.  2022 
  */
 
 /*

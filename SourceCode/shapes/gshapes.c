@@ -119,10 +119,10 @@ enum_start (gegl_stroke_grow_shapeoutlinesb)
   enum_value (GEGL_stroke_GROW_SHAPE_DIAMOND2, "diamond", N_("Diamond"))
 enum_end (GeglstrokeGrowShapeoutlinesb)
 
-property_enum   (grow_shape, _("Outline's internal median"),
+property_enum   (grow_shape, _("Outlineꞌs internal median"),
                  GeglstrokeGrowShapeoutlinesb, gegl_stroke_grow_shapeoutlinesb,
                  GEGL_stroke_GROW_SHAPE_CIRCLE2)
-  description   (_("The shape of the border's internal median. This is not the same thing as the shape. Dropshadow has the same option"))
+  description   (_("The shape of the borderꞌs internal median. This is not the same thing as the shape. Dropshadow has the same option"))
 
 
 
@@ -297,7 +297,7 @@ GeglOperationMetaClass *operation_meta_class = GEGL_OPERATION_META_CLASS (klass)
     "name",        "lb:shapes",
     "title",       _("Draw Shapes"),
     "reference-hash", "gimpcandrawacircle",
-    "description", _("Draw circles and squares in GIMP with GEGL. Alternatively there is a mode to hide the internal vignette and use GIMP's built in vignette'"),
+    "description", _("Draw circles and squares in GIMP with GEGL. Alternatively there is a mode to hide the internal vignette and use GIMPꞌs built in vignetteꞌ"),
     "gimp:menu-path", "<Image>/Filters/Render/Fun",
     "gimp:menu-label", _("Render Shapes..."),
     NULL);
